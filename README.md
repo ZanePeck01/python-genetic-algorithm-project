@@ -72,7 +72,7 @@ This allows for direct observation of:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/python-genetic-algorithm-project.git
+git clone https://github.com/ZanePeck01/python-genetic-algorithm-project.git
 cd python-genetic-algorithm-project
 ```
 Once in the repository, run this command to start the program:
