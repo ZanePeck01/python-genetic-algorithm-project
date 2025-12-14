@@ -1,5 +1,5 @@
 '''
-CSE 545 Final Project - nQueens
+n-Queens Project
 
 '''
 import pygame
@@ -384,4 +384,5 @@ if user_input == 'q':
 for event in pygame.event.get():
     if event.type == pygame.QUIT:
         running = False
+
 
