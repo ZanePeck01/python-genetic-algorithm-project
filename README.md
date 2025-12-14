@@ -72,8 +72,8 @@ This allows for direct observation of:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/nqueens-genetic-algorithm-project.git
-cd nqueens-genetic-algorithm-project
+git clone https://github.com/yourusername/python-genetic-algorithm-project.git
+cd python-genetic-algorithm-project
 ```
 Once in the repository, run this command to start the program:
 ```bash
