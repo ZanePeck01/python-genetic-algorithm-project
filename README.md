@@ -1,11 +1,11 @@
 # Python N-Queens Genetic Algorithm Project
 
-## ♛ n-Queens Solver using a Genetic Algorithm
+## n-Queens Solver using a Genetic Algorithm
 A visual and algorithmic solution to the n-Queens problem implemented using a Genetic Algorithm (GA) and rendered in real time with Pygame.
 
 This project works with Python and algorithm design to demonstrate the application of evolutionary computation techniques to a classic constraint-satisfaction and combinatorial optimization problem.
 
-## 📌 Overview
+## Overview
 
 The n-Queens problem asks:
 
@@ -19,7 +19,7 @@ This project solves the problem using a Genetic Algorithm, evolving a population
 
 The best solution from each generation is visualized live using Pygame.
 
-## 🧬 Genetic Algorithm Design
+## Genetic Algorithm Design
 
 ### Representation
 - Each individual solution is a list of unique board positions
@@ -48,7 +48,7 @@ Attacks are calculated using:
 - Random mutation occurs with a small probability
 - A queen’s position is replaced with a new valid, unused location
 
-## 🎮 Visualization
+## Visualization
 
 - Implemented using Pygame
 - Chessboard updates in real time
@@ -60,7 +60,7 @@ This allows for direct observation of:
 - Convergence behavior
 - Genetic diversity across generations
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pygam
@@ -68,7 +68,7 @@ This allows for direct observation of:
 - Evolutionary Computation
 - Constraint Satisfaction
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Clone the repository
 ```bash
