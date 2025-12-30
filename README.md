@@ -11,7 +11,7 @@ The n-Queens problem asks:
 
 > How can *n* queens be placed on an *n × n* chessboard so that no two queens attack each other?
 
-This project solves the problem using a **Genetic Algorithm**, evolving a population of candidate solutions over generations by applying:
+This project solves the problem using a Genetic Algorithm, evolving a population of candidate solutions over generations by applying:
 - Fitness evaluation  
 - Probabilistic parent selection  
 - Crossover  
@@ -22,13 +22,13 @@ The best solution from each generation is visualized live using Pygame.
 ## 🧬 Genetic Algorithm Design
 
 ### Representation
-- Each individual solution is a list of **unique board positions** (`0 → n² − 1`)
+- Each individual solution is a list of unique board positions
 - Each position represents a queen’s location on the board
 
 ### Fitness Function
-- Fitness is defined as the **number of attacking queen pairs**
+- Fitness is defined as the number of attacking queen pairs
 - Lower fitness values are better
-- A fitness of **0** indicates a valid solution
+- A fitness of 0 indicates a valid solution
 
 Attacks are calculated using:
 - Vertical conflicts  
@@ -36,12 +36,12 @@ Attacks are calculated using:
 - Diagonal conflicts
 
 ### Selection
-- Parents are chosen using **fitness-weighted probabilistic selection**
+- Parents are chosen using fitness-weighted probabilistic selection
 - Every candidate has a base chance to be selected
 - Fitness influence is amplified using an exponential modifier to favor stronger solutions while maintaining population diversity
 
 ### Crossover
-- Offspring are created using a **midpoint crossover**
+- Offspring are created using a midpoint crossover
 - Parent genes are merged while maintaining unique board positions
 
 ### Mutation
@@ -50,7 +50,7 @@ Attacks are calculated using:
 
 ## 🎮 Visualization
 
-- Implemented using **Pygame**
+- Implemented using Pygame
 - Chessboard updates in real time
 - Queens are rendered as red circles
 - Current generation number is displayed on screen
@@ -62,8 +62,8 @@ This allows for direct observation of:
 
 ## 🛠️ Technologies Used
 
-- **Python 3**
-- **Pygame**
+- Python
+- Pygam
 - Genetic Algorithms
 - Evolutionary Computation
 - Constraint Satisfaction
